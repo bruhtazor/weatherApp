@@ -1,0 +1,21 @@
+{'coord': {'lon': 6.6328, 'lat': 46.516}, 
+'weather': [{'id': 804, 'main': 'Clouds', 'description': 'overcast clouds', 'icon': '04d'}], 
+'base': 'stations', 
+'main': {'temp': 283.87, 'feels_like': 282.59, 'temp_min': 282.28, 'temp_max': 286.8, 'pressure': 1021, 'humidity': 61, 'sea_level': 1021, 'grnd_level': 965}, 
+'visibility': 10000, 
+'wind': {'speed': 0.89, 'deg': 180, 'gust': 1.14}, 
+'clouds': {'all': 100}, 
+'dt': 1646229759, 
+'sys': {'type': 2, 'id': 2008110, 'country': 'CH', 'sunrise': 1646201500, 'sunset': 1646241598}, 
+'timezone': 3600, 'id': 2659994, 'name': 'Lausanne', 'cod': 200}
+
+{'coord': {'lon': 6.6328, 'lat': 46.516}, 
+'weather': [{'id': 804, 'main': 'Clouds', 'description': 'overcast clouds', 'icon': '04d'}], 
+'base': 'stations', 
+'main': {'temp': 10.73, 'feels_like': 9.16, 'temp_min': 9.13, 'temp_max': 13.65, 'pressure': 1020, 'humidity': 50}, 
+'visibility': 10000, 
+'wind': {'speed': 0.89, 'deg': 180, 'gust': 1.14}, 
+'clouds': {'all': 100}, 
+'dt': 1646230200, 
+'sys': {'type': 2, 'id': 2001964, 'country': 'CH', 'sunrise': 1646201500, 'sunset': 1646241598}, 
+'timezone': 3600, 'id': 2659994, 'name': 'Lausanne', 'cod': 200}
