@@ -1,4 +1,4 @@
-import functions
+import weatherApp.functions as functions
 import json
 
 data = {

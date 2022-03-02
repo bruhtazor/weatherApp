@@ -1,4 +1,4 @@
-import functions as func
+import weatherApp.functions as func
 from configparser import ConfigParser
 import json
 
