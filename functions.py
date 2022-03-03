@@ -1,11 +1,17 @@
 import requests
 from datetime import datetime
+import json
 
 #unit = metric(C), imperial(F) or standard(kelvin)
 def get_city_info(api_key, city, unit):
     url =f"http://api.openweathermap.org/data/2.5/weather?q={city}&units={unit}&appid={api_key}"
     response = requests.get(url).json()
     return response
+
+def overwrite_data(response, fileName):
+    with open(fileName,"w") as outputFile:
+        json.dump(response, outputFile)
+    outputFile.close()
 
 #gets temp, max & min temp
 def get_temp(response):
